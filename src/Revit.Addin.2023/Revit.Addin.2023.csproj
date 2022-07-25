@@ -66,7 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Manifest\Revit.Addin.2022.addin">
+    <None Include="Manifest\Revit.Addin.2023.addin">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

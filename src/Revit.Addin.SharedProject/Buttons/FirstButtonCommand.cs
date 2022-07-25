@@ -1,4 +1,5 @@
-﻿using Autodesk.Revit.DB;
+﻿using Autodesk.Revit.Attributes;
+using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,9 @@ using System.Windows;
 
 namespace Revit.Addin.SharedProject.Buttons
 {
+    [Transaction(TransactionMode.Manual)]
+    [Regeneration(RegenerationOption.Manual)]
+    [Journaling(JournalingMode.NoCommandData)]
     public class FirstButtonCommand : IExternalCommand
     {
         private static string buttonText = $"First\nButton";
