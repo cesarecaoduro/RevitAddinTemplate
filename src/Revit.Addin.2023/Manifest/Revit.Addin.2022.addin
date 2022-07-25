@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Assembly>RevitAddinTemplate\Revit.Addin.2022.dll</Assembly>
+    <AddInId>19BB6257-1D3C-4781-9658-F8A9B233DF3A</AddInId>
+    <FullClassName>Revit.Addin.SharedProject.AppCommand</FullClassName>
+    <Text>App Command</Text>
+    <VendorId>AECOM</VendorId>
+    <VendorDescription>AECOM, www.aecom.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

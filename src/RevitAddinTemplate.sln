@@ -3,16 +3,60 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Revit.Addin.Shared", "Revit.Addin.Shared\Revit.Addin.Shared.shproj", "{D3017186-1B52-41AF-B251-8B1F13CC4F76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revit.Addin.Models", "Revit.Addin.Models\Revit.Addin.Models.csproj", "{243B43FA-E508-469E-8964-70202339A8EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Addins", "Addins", "{8CF0FAB9-BDB6-464A-812F-0B3C5D8985E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{F3FDB303-2889-4618-A0A7-1070F90D1847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revit.Addin.2022", "Revit.Addin.2022\Revit.Addin.2022.csproj", "{BFF13715-7535-449F-BC09-AAF297EAE594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revit.Addin.2023", "Revit.Addin.2023\Revit.Addin.2023.csproj", "{1EA1257B-6206-4734-B928-093A6B8310AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Revit.Addin.SharedProject", "Revit.Addin.SharedProject\Revit.Addin.SharedProject.shproj", "{3D6573D5-7C8C-4D6B-BA56-D8341FEFBF08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{60F8D96C-52B3-415C-90B0-63FB99A4EA13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{47E8E4EF-0C23-403F-B174-5EFA8D7CEAE7}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\FirstButton.png = Resources\FirstButton.png
+	EndProjectSection
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{243B43FA-E508-469E-8964-70202339A8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243B43FA-E508-469E-8964-70202339A8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243B43FA-E508-469E-8964-70202339A8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243B43FA-E508-469E-8964-70202339A8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF13715-7535-449F-BC09-AAF297EAE594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF13715-7535-449F-BC09-AAF297EAE594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF13715-7535-449F-BC09-AAF297EAE594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF13715-7535-449F-BC09-AAF297EAE594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA1257B-6206-4734-B928-093A6B8310AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA1257B-6206-4734-B928-093A6B8310AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA1257B-6206-4734-B928-093A6B8310AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA1257B-6206-4734-B928-093A6B8310AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{243B43FA-E508-469E-8964-70202339A8EE} = {F3FDB303-2889-4618-A0A7-1070F90D1847}
+		{BFF13715-7535-449F-BC09-AAF297EAE594} = {8CF0FAB9-BDB6-464A-812F-0B3C5D8985E5}
+		{1EA1257B-6206-4734-B928-093A6B8310AA} = {8CF0FAB9-BDB6-464A-812F-0B3C5D8985E5}
+		{3D6573D5-7C8C-4D6B-BA56-D8341FEFBF08} = {F3FDB303-2889-4618-A0A7-1070F90D1847}
+		{47E8E4EF-0C23-403F-B174-5EFA8D7CEAE7} = {60F8D96C-52B3-415C-90B0-63FB99A4EA13}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3051D196-ACB2-4BC8-9BAB-7B08F12005CC}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Revit.Addin.Shared\Revit.Addin.Shared.projitems*{d3017186-1b52-41af-b251-8b1f13cc4f76}*SharedItemsImports = 13
+		Revit.Addin.SharedProject\Revit.Addin.SharedProject.projitems*{1ea1257b-6206-4734-b928-093a6b8310aa}*SharedItemsImports = 4
+		Revit.Addin.SharedProject\Revit.Addin.SharedProject.projitems*{3d6573d5-7c8c-4d6b-ba56-d8341fefbf08}*SharedItemsImports = 13
+		Revit.Addin.SharedProject\Revit.Addin.SharedProject.projitems*{bff13715-7535-449f-bc09-aaf297eae594}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal
