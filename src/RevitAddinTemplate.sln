@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Revit.Addin.Shared", "Revit.Addin.Shared\Revit.Addin.Shared.shproj", "{D3017186-1B52-41AF-B251-8B1F13CC4F76}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3051D196-ACB2-4BC8-9BAB-7B08F12005CC}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Revit.Addin.Shared\Revit.Addin.Shared.projitems*{d3017186-1b52-41af-b251-8b1f13cc4f76}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
