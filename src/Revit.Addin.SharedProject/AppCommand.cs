@@ -25,6 +25,7 @@ namespace Revit.Addin.SharedProject
                 ?? application.CreateRibbonPanel(tabName, ribbonPanelName);
 
             FirstButtonCommand.CreateButton(ribbonPanel);
+            SecondButtonCommand.CreateButton(ribbonPanel);
 
             return Result.Succeeded;
         }

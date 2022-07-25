@@ -11,5 +11,27 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)AppCommand.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Buttons\FirstButtonCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Buttons\SecondButton\SecondButtonCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Buttons\SecondButton\SecondButtonModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Buttons\SecondButton\SecondButtonView.xaml.cs">
+      <DependentUpon>SecondButtonView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Buttons\SecondButton\SecondButtonViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\ImageUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\32x32\FirstButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\32x32\SecondButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Buttons\SecondButton\SecondButtonView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)NewFolder\" />
   </ItemGroup>
 </Project>

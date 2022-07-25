@@ -15,13 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revit.Addin.2023", "Revit.A
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Revit.Addin.SharedProject", "Revit.Addin.SharedProject\Revit.Addin.SharedProject.shproj", "{3D6573D5-7C8C-4D6B-BA56-D8341FEFBF08}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{60F8D96C-52B3-415C-90B0-63FB99A4EA13}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{47E8E4EF-0C23-403F-B174-5EFA8D7CEAE7}"
-	ProjectSection(SolutionItems) = preProject
-		Resources\FirstButton.png = Resources\FirstButton.png
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,7 +42,6 @@ Global
 		{BFF13715-7535-449F-BC09-AAF297EAE594} = {8CF0FAB9-BDB6-464A-812F-0B3C5D8985E5}
 		{1EA1257B-6206-4734-B928-093A6B8310AA} = {8CF0FAB9-BDB6-464A-812F-0B3C5D8985E5}
 		{3D6573D5-7C8C-4D6B-BA56-D8341FEFBF08} = {F3FDB303-2889-4618-A0A7-1070F90D1847}
-		{47E8E4EF-0C23-403F-B174-5EFA8D7CEAE7} = {60F8D96C-52B3-415C-90B0-63FB99A4EA13}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3051D196-ACB2-4BC8-9BAB-7B08F12005CC}

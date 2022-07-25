@@ -6,24 +6,24 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
-using System.Windows;
 
 namespace Revit.Addin.SharedProject.Buttons
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.NoCommandData)]
-    public class FirstButtonCommand : IExternalCommand
+    public class SecondButtonCommand : IExternalCommand
     {
-        private static string buttonName = "FirstButton";
-        private static string buttonText = $"First\nButton";
-        private static string buttonTooltip = $"First Button Tooltip";
+        private static string buttonName = "SecondButton";
+        private static string buttonText = $"Second\nButton";
+        private static string buttonTooltip = $"Second Button Tooltip";
 
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             try
             {
-                MessageBox.Show("First Button Command", "AECOM Tech", MessageBoxButton.OK);
+                var uiApp = commandData.Application;
+                var m = new SecondButtonModel(uiApp);
                 return Result.Succeeded;
             }
             catch (Exception)
