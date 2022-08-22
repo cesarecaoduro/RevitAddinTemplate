@@ -24,6 +24,7 @@ namespace Revit.Addin.SharedProject.Buttons
             {
                 var uiApp = commandData.Application;
                 var m = new SecondButtonModel(uiApp);
+
                 return Result.Succeeded;
             }
             catch (Exception)

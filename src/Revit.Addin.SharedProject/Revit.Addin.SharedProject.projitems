@@ -10,7 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)AppCommand.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Buttons\FirstButtonCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Buttons\FirstButton\FirstButtonCommand.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Buttons\SecondButton\SecondButtonCommand.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Buttons\SecondButton\SecondButtonModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Buttons\SecondButton\SecondButtonView.xaml.cs">
@@ -32,6 +32,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)NewFolder\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Buttons\FirstButton\" />
   </ItemGroup>
 </Project>
